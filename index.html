@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Produto</h1>
+
+        <input type="text" id="nomeProduto" placeholder="Nome do Produto">
+        <br>
+        <input type="number" id="quantidade" placeholder="Quantidade">
+        <br>
+        <input type="number" id="valor" placeholder="Valor (R$)">
+        <br>
+        <button onclick="cadastrarProduto()">Cadastrar</button>
+
+        <p id="mensagemErro"></p>
+        <div id="resultado"></div> <!-- Aqui será exibido o produto cadastrado -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
